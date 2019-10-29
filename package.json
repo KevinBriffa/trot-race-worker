@@ -1,0 +1,21 @@
+{
+  "name": "trot-race-worker",
+  "version": "1.0.0",
+  "description": "Event grabber for trot race simulator",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha"
+  },
+  "author": "Kevin Briffa (kevin@appman.se)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.7.7",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
